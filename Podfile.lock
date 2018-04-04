@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.7.0)
+  - SwiftSoup (1.6.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - SwiftSoup
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  SwiftSoup: 390f651d9d3937c538e41219a98e5d6658a4405f
+
+PODFILE CHECKSUM: 95c46073ec6ba0545a66162991d12856ed4b99b0
+
+COCOAPODS: 1.3.1
