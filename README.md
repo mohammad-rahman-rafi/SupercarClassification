@@ -1,6 +1,6 @@
 # Supercar Recognition App Using Deep Neural Network
 
-With the trained model, the app can infer Bugatti Chiron, Ferrari LaFerrai, Rolls Royce Wraith Black Badge, Hennessey Venom GT, Lamborghini Huracan Performante, Pagani Huayra Roadster, Mercedes AMG GTR, Porsche 918 Spyder, and Tesla Model S P100D in real time. Once a car is recognized, the user can click on the label button to browse information about that vehicle regarding its profile (review), engine specification, performance, dimensions, competitors and price. Once the user is done browsing, the user can get back to the main page and repeat the process. 
+With the trained model, the app can infer Bugatti Chiron, Ferrari LaFerrai, Rolls Royce Wraith Black Badge, Hennessey Venom GT, Lamborghini Huracan Performante, Pagani Huayra Roadster, Mercedes AMG GTR, Porsche 918 Spyder, and Tesla Model S P100D in real time. Once a car is recognized, the user can click on the label button to browse information about that vehicle regarding its profile (review), engine specification, performance, dimensions, competitors and price. When the user is done browsing, the user can get back to the main page and repeat the process. 
 
 This app has been developed with the intention to classify automobiles in Auto Show Events, and then display car details on a smartphone. However, this app could also be used by car enthusiasts to detect and find information about a car that they have spotted on the go.
 
