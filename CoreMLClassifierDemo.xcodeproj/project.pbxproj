@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E525772071369D004E2012 /* Car10.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00E525762071369D004E2012 /* Car10.mlmodel */; };
 		12712354872DB93FECAB33C9 /* Pods_CoreMLClassifierDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE99DD702B9C1C4F703BCBBE /* Pods_CoreMLClassifierDemo.framework */; };
 		276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 276D536A1EE7C2370020D61F /* MZImageConvertor.m */; };
 		27ACBD001EE872B00045BC5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE46A58D1EE84D0B0028A6C9 /* ViewController.swift */; };
@@ -16,12 +15,13 @@
 		C3E8677D1E1488470042F78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677C1E1488470042F78A /* Assets.xcassets */; };
 		C3E867801E1488470042F78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E8677E1E1488470042F78A /* LaunchScreen.storyboard */; };
 		C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E867871E14898D0042F78A /* FrameExtractor.swift */; };
+		FB56927E20753E9E009BC4C7 /* BaseCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB56927D20753E9E009BC4C7 /* BaseCellView.xib */; };
+		FB56928020753EEE009BC4C7 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB56927F20753EEE009BC4C7 /* BaseCell.swift */; };
 		FB68CDB220679A05005CC57E /* CarDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68CDB120679A05005CC57E /* CarDetailTableViewController.swift */; };
 		FB88AC6E2054F46C004EBDF8 /* HTMLScrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88AC6D2054F46C004EBDF8 /* HTMLScrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00E525762071369D004E2012 /* Car10.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Car10.mlmodel; sourceTree = "<group>"; };
 		23A48BA64E848B14436EA25D /* Pods-CoreMLClassifierDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLClassifierDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLClassifierDemo/Pods-CoreMLClassifierDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		276D53681EE7C1FF0020D61F /* MZImageConvertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZImageConvertor.h; sourceTree = "<group>"; };
 		276D53691EE7C2370020D61F /* FrameExtraction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrameExtraction-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		C3E867811E1488470042F78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E867871E14898D0042F78A /* FrameExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameExtractor.swift; sourceTree = "<group>"; };
 		EE99DD702B9C1C4F703BCBBE /* Pods_CoreMLClassifierDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreMLClassifierDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB56927D20753E9E009BC4C7 /* BaseCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCellView.xib; sourceTree = "<group>"; };
+		FB56927F20753EEE009BC4C7 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		FB68CDB120679A05005CC57E /* CarDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailTableViewController.swift; sourceTree = "<group>"; };
 		FB88AC6D2054F46C004EBDF8 /* HTMLScrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLScrapper.swift; sourceTree = "<group>"; };
 		FC4FBC49F0A8698A9A69DF06 /* Pods-CoreMLClassifierDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreMLClassifierDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreMLClassifierDemo/Pods-CoreMLClassifierDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +57,6 @@
 		276ACBEC1EE723430094E61B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				00E525762071369D004E2012 /* Car10.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -93,6 +94,7 @@
 		C3E867741E1488470042F78A /* FrameExtraction */ = {
 			isa = PBXGroup;
 			children = (
+				FB56927D20753E9E009BC4C7 /* BaseCellView.xib */,
 				276D53681EE7C1FF0020D61F /* MZImageConvertor.h */,
 				276D536A1EE7C2370020D61F /* MZImageConvertor.m */,
 				C3E867751E1488470042F78A /* AppDelegate.swift */,
@@ -102,6 +104,7 @@
 				C3E8677E1E1488470042F78A /* LaunchScreen.storyboard */,
 				C3E867811E1488470042F78A /* Info.plist */,
 				276D53691EE7C2370020D61F /* FrameExtraction-Bridging-Header.h */,
+				FB56927F20753EEE009BC4C7 /* BaseCell.swift */,
 			);
 			path = FrameExtraction;
 			sourceTree = "<group>";
@@ -150,7 +153,7 @@
 				TargetAttributes = {
 					C3E867711E1488470042F78A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7LFB8969T7;
+						DevelopmentTeam = 7449R7248Z;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -182,6 +185,7 @@
 				C3E867801E1488470042F78A /* LaunchScreen.storyboard in Resources */,
 				C3E8677D1E1488470042F78A /* Assets.xcassets in Resources */,
 				C3E8677B1E1488470042F78A /* Main.storyboard in Resources */,
+				FB56927E20753E9E009BC4C7 /* BaseCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +255,7 @@
 				FB88AC6E2054F46C004EBDF8 /* HTMLScrapper.swift in Sources */,
 				FB68CDB220679A05005CC57E /* CarDetailTableViewController.swift in Sources */,
 				27ACBD001EE872B00045BC5C /* ViewController.swift in Sources */,
-				00E525772071369D004E2012 /* Car10.mlmodel in Sources */,
+				FB56928020753EEE009BC4C7 /* BaseCell.swift in Sources */,
 				C3E867881E14898D0042F78A /* FrameExtractor.swift in Sources */,
 				276D536B1EE7C2370020D61F /* MZImageConvertor.m in Sources */,
 				C3E867761E1488470042F78A /* AppDelegate.swift in Sources */,
@@ -394,7 +398,7 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COREML_CODEGEN_LANGUAGE = Swift;
 				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = YES;
-				DEVELOPMENT_TEAM = 7LFB8969T7;
+				DEVELOPMENT_TEAM = 7449R7248Z;
 				INFOPLIST_FILE = FrameExtraction/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -418,7 +422,7 @@
 				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COREML_CODEGEN_LANGUAGE = Swift;
 				COREML_CODEGEN_SWIFT_GLOBAL_MODULE = YES;
-				DEVELOPMENT_TEAM = 7LFB8969T7;
+				DEVELOPMENT_TEAM = 7449R7248Z;
 				INFOPLIST_FILE = FrameExtraction/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
